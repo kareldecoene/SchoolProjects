@@ -1,0 +1,13 @@
+#bestPictures>h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 10px;
+  padding: 5px;
+}
+
+#bestPictures>hr {
+  margin-left: 14px;
+  padding-left: 5px;
+  margin-right: 14px;
+  padding-right: 5px;
+}

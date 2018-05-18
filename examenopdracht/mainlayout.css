@@ -1,0 +1,29 @@
+#gridcontainer {
+  grid-template-columns: auto;
+  grid-auto-rows: auto auto auto auto auto;
+  grid-template-areas: "menu"
+                       "foto"
+                       "bestpics"
+                       "carspotten"
+                       "footer";
+}
+
+#menu {
+  grid-area: menu;
+}
+
+#banner {
+  grid-area: foto;
+}
+
+#bestPictures {
+  grid-area: bestpics;
+}
+
+#Carspotter {
+  grid-area: carspotten;
+}
+
+#footer {
+  grid-area: footer;
+}
