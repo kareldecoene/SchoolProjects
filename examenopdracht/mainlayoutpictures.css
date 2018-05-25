@@ -1,0 +1,79 @@
+#gridcontainer2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: "link1 link2 link3 link4"
+                       "link5 link6 link7 link8"
+                       "link9 link10 link11 link12"
+                       "link13 link14 link15 link16";
+  width: 100%;
+}
+
+.allpictures {
+  display: block;
+  width: 100%;
+}
+
+#picture1 {
+  grid-area: link1;
+}
+
+#picture2 {
+  grid-area: link2;
+}
+
+#picture3 {
+  grid-area: link3;
+}
+
+#picture4 {
+  grid-area: link4;
+}
+
+#picture5 {
+  grid-area: link5;
+}
+
+#picture6 {
+  grid-area: link6;
+}
+
+#picture7 {
+  grid-area: link7;
+}
+
+#picture8 {
+  grid-area: link8;
+}
+
+#picture9 {
+  grid-area: link9;
+}
+
+$#picture10 {
+  grid-area: link10;
+}
+
+#picture11 {
+  grid-area: link11;
+}
+
+#picture12 {
+  grid-area: link12;
+}
+
+#picture13 {
+  grid-area: link13;
+}
+
+#picture14 {
+  grid-area: link14;
+}
+
+#picture15 {
+  grid-area: link15;
+}
+
+#picture16 {
+  grid-area: link16;
+}

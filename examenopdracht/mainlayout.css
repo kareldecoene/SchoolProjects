@@ -6,6 +6,8 @@
                        "bestpics"
                        "carspotten"
                        "footer";
+  grid-gap: 50px;
+  height: 100%;
 }
 
 #menu {

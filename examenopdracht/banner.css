@@ -1,0 +1,30 @@
+#banner>img {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.centered1 {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#titlestuk {
+  font-weight: bold;
+  color: white;
+  background-color: #121315;
+  font-size: 35px;
+  opacity: 0.8;
+  padding: 12px;
+}

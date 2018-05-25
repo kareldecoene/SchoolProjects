@@ -1,0 +1,97 @@
+#bestPictures {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: "title title title title"
+                       "line line line line"
+                       "photo1 photo2 photo3 photo4"
+                       "photo5 photo6 photo7 photo8";
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagebest {
+  width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.textimage {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+}
+
+#bestPicturesLine {
+  grid-area: line;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#titelBestPictures {
+  grid-area: title;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#huracanPerformante {
+  grid-area: photo1;
+  position: relative;
+}
+
+#huracanPerformante>div>p {
+  position: absolute;
+  padding: 8px;
+  top: 0%;
+  right: 48%;
+  left: 0%;
+  text-align: left;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+#p918Spyder {
+  grid-area: photo2;
+}
+
+#p918Spyder>div>p {
+  position: absolute;
+  padding: 8px;
+  top: 0%;
+  right: 48%;
+  left: 0%;
+  text-align: left;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+#f458Speciale {
+  grid-area: photo3;
+}
+
+#fF12TDF {
+  grid-area: photo7;
+}
+
+#mclarenSenna {
+  grid-area: photo4;
+}
+
+#koenigseggAgeraRS1 {
+  grid-area: photo5;
+}
+
+#aventadorSVRoadster {
+  grid-area: photo6;
+}
+
+#mAMGGTRCoupé {
+  grid-area: photo8;
+}
